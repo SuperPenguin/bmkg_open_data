@@ -1,0 +1,9 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    always_declare_return_types: true
+    always_use_package_imports: true
+    prefer_single_quotes: true
+    sort_pub_dependencies: true
+    unnecessary_statements: true
