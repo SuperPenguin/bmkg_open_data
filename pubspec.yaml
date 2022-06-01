@@ -1,5 +1,5 @@
 name: bmkg_open_data
-description: A starting point for Dart libraries or applications.
+description: Dart library for fetching data from https://data.bmkg.go.id/
 version: 1.0.0
 repository: https://github.com/SuperPenguin/bmkg_open_data
 homepage: https://github.com/SuperPenguin/bmkg_open_data
