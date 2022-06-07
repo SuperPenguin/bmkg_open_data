@@ -359,12 +359,28 @@ enum WindDirectionCard {
     final value = _codeMap[code];
     if (value != null) return value;
 
-    throw Exception();
+    throw WindDirectionCardParseException(
+      code: code,
+    );
   }
 
   static Map<String, WindDirectionCard> _codeMap = {
     for (final e in WindDirectionCard.values) e.code: e,
   };
+}
+
+@immutable
+class WindDirectionCardParseException implements Exception {
+  const WindDirectionCardParseException({
+    required this.code,
+  });
+
+  final String code;
+
+  @override
+  String toString() {
+    return 'WindDirectionCardParseException: Unable to parse WindDirectionCard from code $code';
+  }
 }
 
 @immutable
@@ -559,7 +575,7 @@ class WeatherCodeParseException implements Exception {
 
   @override
   String toString() {
-    return 'WeatherCodeParseException: Unable to find WeatherCode from code $code';
+    return 'WeatherCodeParseException: Unable to parse WeatherCode from code $code';
   }
 }
 
