@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'dart:io';
 
 import 'package:bmkg_open_data/bmkg_open_data.dart';

@@ -13,7 +13,7 @@ class ForecastResponse {
   factory ForecastResponse.fromXmlDocument(XmlDocument xmlDocument) {
     final data = xmlDocument.getElement('data');
     if (data == null) {
-      throw ForecastParseException.missingElement(
+      throw const ForecastParseException.missingElement(
         elementName: 'data',
       );
     }
@@ -569,11 +569,11 @@ class ForecastParseException implements Exception {
     required this.message,
   });
 
-  ForecastParseException.missingElement({
+  const ForecastParseException.missingElement({
     required String elementName,
   }) : message = 'Unable to find element <$elementName>';
 
-  ForecastParseException.missingAttribute({
+  const ForecastParseException.missingAttribute({
     required String elementName,
     required String attributeName,
   }) : message =
