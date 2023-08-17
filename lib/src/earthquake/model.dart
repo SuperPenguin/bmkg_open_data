@@ -1,30 +1,30 @@
 import 'package:meta/meta.dart';
 
 @immutable
-abstract class Earthquake {
+sealed class Earthquake {
   const Earthquake({
     required this.dateTime,
-    required this.longitude,
     required this.latitude,
+    required this.longitude,
     required this.magnitude,
     required this.depth,
     required this.region,
   });
 
   final DateTime dateTime;
-  final double longitude;
   final double latitude;
+  final double longitude;
   final double magnitude;
   final String depth;
   final String region;
 }
 
 @immutable
-class LastEarthquake extends Earthquake {
+final class LastEarthquake extends Earthquake {
   const LastEarthquake({
     required super.dateTime,
-    required super.longitude,
     required super.latitude,
+    required super.longitude,
     required super.magnitude,
     required super.depth,
     required super.region,
@@ -34,14 +34,14 @@ class LastEarthquake extends Earthquake {
   });
 
   factory LastEarthquake.fromJson(Map<String, dynamic> json) {
-    final coordinate = _LongLat.fromCoordinateString(
+    final (latitude, longitude) = _parseCoordinate(
       json['Coordinates'] as String,
     );
 
     return LastEarthquake(
       dateTime: DateTime.parse(json['DateTime'] as String),
-      longitude: coordinate.longitude,
-      latitude: coordinate.latitude,
+      latitude: latitude,
+      longitude: longitude,
       magnitude: double.parse(json['Magnitude'] as String),
       depth: json['Kedalaman'] as String,
       region: json['Wilayah'] as String,
@@ -72,11 +72,11 @@ class LastEarthquake extends Earthquake {
 }
 
 @immutable
-class RecentEarthquake extends Earthquake {
+final class RecentEarthquake extends Earthquake {
   const RecentEarthquake({
     required super.dateTime,
-    required super.longitude,
     required super.latitude,
+    required super.longitude,
     required super.magnitude,
     required super.depth,
     required super.region,
@@ -84,14 +84,14 @@ class RecentEarthquake extends Earthquake {
   });
 
   factory RecentEarthquake.fromJson(Map<String, dynamic> json) {
-    final coordinate = _LongLat.fromCoordinateString(
+    final (latitude, longitude) = _parseCoordinate(
       json['Coordinates'] as String,
     );
 
     return RecentEarthquake(
       dateTime: DateTime.parse(json['DateTime'] as String),
-      longitude: coordinate.longitude,
-      latitude: coordinate.latitude,
+      latitude: latitude,
+      longitude: longitude,
       magnitude: double.parse(json['Magnitude'] as String),
       depth: json['Kedalaman'] as String,
       region: json['Wilayah'] as String,
@@ -103,11 +103,11 @@ class RecentEarthquake extends Earthquake {
 }
 
 @immutable
-class EarthquakeFelt extends Earthquake {
+final class EarthquakeFelt extends Earthquake {
   const EarthquakeFelt({
     required super.dateTime,
-    required super.longitude,
     required super.latitude,
+    required super.longitude,
     required super.magnitude,
     required super.depth,
     required super.region,
@@ -115,14 +115,14 @@ class EarthquakeFelt extends Earthquake {
   });
 
   factory EarthquakeFelt.fromJson(Map<String, dynamic> json) {
-    final coordinate = _LongLat.fromCoordinateString(
+    final (latitude, longitude) = _parseCoordinate(
       json['Coordinates'] as String,
     );
 
     return EarthquakeFelt(
       dateTime: DateTime.parse(json['DateTime'] as String),
-      longitude: coordinate.longitude,
-      latitude: coordinate.latitude,
+      latitude: latitude,
+      longitude: longitude,
       magnitude: double.parse(json['Magnitude'] as String),
       depth: json['Kedalaman'] as String,
       region: json['Wilayah'] as String,
@@ -133,22 +133,9 @@ class EarthquakeFelt extends Earthquake {
   final String regionFelt;
 }
 
-@immutable
-class _LongLat {
-  const _LongLat({
-    required this.latitude,
-    required this.longitude,
-  });
-
-  factory _LongLat.fromCoordinateString(String coordinate) {
-    final list = coordinate.split(',');
-
-    return _LongLat(
-      latitude: double.parse(list[0]),
-      longitude: double.parse(list[1]),
-    );
-  }
-
-  final double latitude;
-  final double longitude;
+(double latitude, double longitude) _parseCoordinate(String str) {
+  final list = str.split(',');
+  final latitude = double.parse(list[0]);
+  final longitude = double.parse(list[1]);
+  return (latitude, longitude);
 }

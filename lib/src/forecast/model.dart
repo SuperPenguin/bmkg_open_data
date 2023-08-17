@@ -2,7 +2,7 @@ import 'package:meta/meta.dart';
 import 'package:xml/xml.dart';
 
 @immutable
-class ForecastResponse {
+final class ForecastResponse {
   const ForecastResponse({
     required this.source,
     required this.productionCenter,
@@ -41,7 +41,7 @@ class ForecastResponse {
 }
 
 @immutable
-class ForecastArea {
+final class ForecastArea {
   const ForecastArea.land({
     required this.id,
     required this.domain,
@@ -193,7 +193,7 @@ enum ForecastAreaType {
 }
 
 @immutable
-class WindSpeed {
+final class WindSpeed {
   const WindSpeed({
     required this.dateTime,
     required this.type,
@@ -238,7 +238,7 @@ class WindSpeed {
 }
 
 @immutable
-class WindDirection {
+final class WindDirection {
   const WindDirection({
     required this.dateTime,
     required this.type,
@@ -384,7 +384,7 @@ class WindDirectionCardParseException implements Exception {
 }
 
 @immutable
-class Weather {
+final class Weather {
   const Weather({
     required this.dateTime,
     required this.type,
@@ -412,7 +412,7 @@ class Weather {
 }
 
 @immutable
-class Temperature {
+final class Temperature {
   const Temperature({
     required this.dateTime,
     required this.type,
@@ -448,7 +448,7 @@ class Temperature {
 }
 
 @immutable
-class Humidity {
+final class Humidity {
   const Humidity({
     required this.dateTime,
     required this.value,
@@ -558,7 +558,7 @@ enum WeatherCode {
     throw WeatherCodeParseException(code: code);
   }
 
-  static Map<int, WeatherCode> _codeMap = {
+  static final Map<int, WeatherCode> _codeMap = {
     for (final v in WeatherCode.values) ...{
       for (final c in v.code) c: v,
     },
