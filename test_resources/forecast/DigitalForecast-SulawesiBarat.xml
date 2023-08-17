@@ -2,324 +2,324 @@
 <data source="meteofactory" productioncenter="NC Jakarta">
 <forecast domain='local'>
 <issue>
-<timestamp>20220601024511</timestamp>
-<year>2022</year>
-<month>06</month>
-<day>01</day>
-<hour>02</hour>
-<minute>45</minute>
-<second>11</second>
+<timestamp>20230817010335</timestamp>
+<year>2023</year>
+<month>08</month>
+<day>17</day>
+<hour>01</hour>
+<minute>03</minute>
+<second>35</second>
 </issue>
 <area id="501483" latitude="-3.52" longitude="118.96" coordinate="118.96 -3.52" type="land" region="" level="1" description="Majene"  domain="Sulawesi Barat"  tags="">
 <name xml:lang="en_US">Majene</name>
 <name xml:lang="id_ID">Kab. Majene</name>
 
 		<parameter id="hu" description="Humidity" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
-					<value unit="%">75</value>
-				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
+				<timerange type="hourly" h="0" datetime="202308170000">
 					<value unit="%">65</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="%">60</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="%">80</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
+				<timerange type="hourly" h="18" datetime="202308171800">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
+				<timerange type="hourly" h="24" datetime="202308180000">
 					<value unit="%">65</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="%">60</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="%">80</value>
 				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
+				<timerange type="hourly" h="48" datetime="202308190000">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="%">70</value>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="%">65</value>
 				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
+				<timerange type="hourly" h="60" datetime="202308191200">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
+				<timerange type="hourly" h="66" datetime="202308191800">
 					<value unit="%">80</value>
 				</timerange>
 			</parameter>
 		<parameter id="humax" description="Max humidity" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="%">85</value>
+				</timerange>
+				<timerange type="daily" day="20230818" datetime="202308181200">
 					<value unit="%">80</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="%">85</value>
-				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="%">85</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="%">80</value>
 				</timerange>
 			</parameter>
 		<parameter id="tmax" description="Max temperature" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="C">33</value>
+					<value unit="F">91.4</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
 				</timerange>
 			</parameter>
 		<parameter id="humin" description="Min humidity" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="%">65</value>
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="%">60</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="%">65</value>
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="%">60</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="%">70</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="%">65</value>
 				</timerange>
 			</parameter>
 		<parameter id="tmin" description="Min temperature" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="C">24</value>
+					<value unit="F">75.2</value>
+				</timerange>
+				<timerange type="daily" day="20230818" datetime="202308181200">
 					<value unit="C">26</value>
 					<value unit="F">78.8</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
-				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="C">26</value>
+					<value unit="F">78.8</value>
 				</timerange>
 			</parameter>
 		<parameter id="t" description="Temperature" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="C">29</value>
+					<value unit="F">84.2</value>
+				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="C">33</value>
+					<value unit="F">91.4</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="C">28</value>
+					<value unit="F">82.4</value>
+				</timerange>
+				<timerange type="hourly" h="18" datetime="202308171800">
 					<value unit="C">27</value>
 					<value unit="F">80.6</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="C">29</value>
+					<value unit="F">84.2</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
 					<value unit="C">27</value>
 					<value unit="F">80.6</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
+				<timerange type="hourly" h="42" datetime="202308181800">
+					<value unit="C">26</value>
+					<value unit="F">78.8</value>
 				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="C">28</value>
+					<value unit="F">82.4</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="C">28</value>
+					<value unit="F">82.4</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
-				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="C">26</value>
+					<value unit="F">78.8</value>
 				</timerange>
 			</parameter>
 		<parameter id="weather" description="Weather" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
 					<value unit="icon">1</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="icon">3</value>
-				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="icon">3</value>
-				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="icon">3</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
+				<timerange type="hourly" h="18" datetime="202308171800">
 					<value unit="icon">1</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="30" datetime="202308180600">
 					<value unit="icon">1</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="icon">60</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="icon">3</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
+				<timerange type="hourly" h="48" datetime="202308190000">
 					<value unit="icon">3</value>
 				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
+				<timerange type="hourly" h="54" datetime="202308190600">
 					<value unit="icon">3</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="icon">3</value>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="icon">60</value>
 				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="icon">3</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
+				<timerange type="hourly" h="66" datetime="202308191800">
 					<value unit="icon">3</value>
 				</timerange>
 			</parameter>
 		<parameter id="wd" description="Wind direction" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
-					<value unit="deg">67.5</value>
-					<value unit="CARD">ENE</value>
-					<value unit="SEXA">6730</value>
-				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="deg">180</value>
-					<value unit="CARD">S</value>
-					<value unit="SEXA">18000</value>
-				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="deg">90</value>
-					<value unit="CARD">E</value>
-					<value unit="SEXA">9000</value>
-				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="deg">90</value>
-					<value unit="CARD">E</value>
-					<value unit="SEXA">9000</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="deg">67.5</value>
-					<value unit="CARD">ENE</value>
-					<value unit="SEXA">6730</value>
-				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
+				<timerange type="hourly" h="0" datetime="202308170000">
 					<value unit="deg">157.5</value>
 					<value unit="CARD">SSE</value>
 					<value unit="SEXA">15730</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="deg">67.5</value>
-					<value unit="CARD">ENE</value>
-					<value unit="SEXA">6730</value>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
 				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
+				<timerange type="hourly" h="18" datetime="202308171800">
+					<value unit="deg">157.5</value>
+					<value unit="CARD">SSE</value>
+					<value unit="SEXA">15730</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="deg">292.5</value>
-					<value unit="CARD">WNW</value>
-					<value unit="SEXA">29230</value>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
 				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="deg">45</value>
-					<value unit="CARD">NE</value>
-					<value unit="SEXA">4500</value>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
 				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
+					<value unit="deg">90</value>
+					<value unit="CARD">E</value>
+					<value unit="SEXA">9000</value>
+				</timerange>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="deg">90</value>
+					<value unit="CARD">E</value>
+					<value unit="SEXA">9000</value>
+				</timerange>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="deg">157.5</value>
+					<value unit="CARD">SSE</value>
+					<value unit="SEXA">15730</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="deg">157.5</value>
+					<value unit="CARD">SSE</value>
+					<value unit="SEXA">15730</value>
+				</timerange>
+				<timerange type="hourly" h="66" datetime="202308191800">
 					<value unit="deg">22.5</value>
 					<value unit="CARD">NNE</value>
 					<value unit="SEXA">2230</value>
 				</timerange>
 			</parameter>
 		<parameter id="ws" description="Wind speed" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="Kt">15</value>
+					<value unit="MPH">17.26169175</value>
+					<value unit="KPH">27.78</value>
+					<value unit="MS">7.71666666</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="Kt">15</value>
+					<value unit="MPH">17.26169175</value>
+					<value unit="KPH">27.78</value>
+					<value unit="MS">7.71666666</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="Kt">20</value>
+					<value unit="MPH">23.015589</value>
+					<value unit="KPH">37.04</value>
+					<value unit="MS">10.28888888</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
+				<timerange type="hourly" h="18" datetime="202308171800">
+					<value unit="Kt">15</value>
+					<value unit="MPH">17.26169175</value>
+					<value unit="KPH">27.78</value>
+					<value unit="MS">7.71666666</value>
 				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="Kt">15</value>
+					<value unit="MPH">17.26169175</value>
+					<value unit="KPH">27.78</value>
+					<value unit="MS">7.71666666</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="Kt">15</value>
+					<value unit="MPH">17.26169175</value>
+					<value unit="KPH">27.78</value>
+					<value unit="MS">7.71666666</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="Kt">2</value>
-					<value unit="MPH">2.3015589</value>
-					<value unit="KPH">3.704</value>
-					<value unit="MS">1.028888888</value>
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="Kt">25</value>
+					<value unit="MPH">28.76948625</value>
+					<value unit="KPH">46.3</value>
+					<value unit="MS">12.8611111</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
+				<timerange type="hourly" h="42" datetime="202308181800">
+					<value unit="Kt">15</value>
+					<value unit="MPH">17.26169175</value>
+					<value unit="KPH">27.78</value>
+					<value unit="MS">7.71666666</value>
 				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="Kt">15</value>
+					<value unit="MPH">17.26169175</value>
+					<value unit="KPH">27.78</value>
+					<value unit="MS">7.71666666</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="Kt">20</value>
+					<value unit="MPH">23.015589</value>
+					<value unit="KPH">37.04</value>
+					<value unit="MS">10.28888888</value>
 				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="Kt">15</value>
+					<value unit="MPH">17.26169175</value>
+					<value unit="KPH">27.78</value>
+					<value unit="MS">7.71666666</value>
 				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
+				<timerange type="hourly" h="66" datetime="202308191800">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
@@ -330,1256 +330,1256 @@
 <name xml:lang="id_ID">Kab. Mamasa</name>
 
 		<parameter id="hu" description="Humidity" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
-					<value unit="%">75</value>
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="%">70</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="%">75</value>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="%">70</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="%">75</value>
-				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="%">80</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="%">75</value>
-				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="%">75</value>
-				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="%">80</value>
-				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
+				<timerange type="hourly" h="12" datetime="202308171200">
 					<value unit="%">85</value>
 				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
+				<timerange type="hourly" h="18" datetime="202308171800">
+					<value unit="%">80</value>
+				</timerange>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="%">70</value>
+				</timerange>
+				<timerange type="hourly" h="30" datetime="202308180600">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="%">90</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
+					<value unit="%">85</value>
+				</timerange>
+				<timerange type="hourly" h="48" datetime="202308190000">
 					<value unit="%">80</value>
 				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
+				<timerange type="hourly" h="54" datetime="202308190600">
 					<value unit="%">80</value>
 				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="%">80</value>
+				</timerange>
+				<timerange type="hourly" h="66" datetime="202308191800">
 					<value unit="%">85</value>
 				</timerange>
 			</parameter>
 		<parameter id="humax" description="Max humidity" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="%">85</value>
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="%">95</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="%">85</value>
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="%">90</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
+				<timerange type="daily" day="20230819" datetime="202308191200">
 					<value unit="%">90</value>
 				</timerange>
 			</parameter>
 		<parameter id="tmax" description="Max temperature" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="C">29</value>
-					<value unit="F">84.2</value>
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="C">24</value>
+					<value unit="F">75.2</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="C">29</value>
-					<value unit="F">84.2</value>
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="C">23</value>
+					<value unit="F">73.4</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="C">28</value>
-					<value unit="F">82.4</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="C">21</value>
+					<value unit="F">69.8</value>
 				</timerange>
 			</parameter>
 		<parameter id="humin" description="Min humidity" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
+				<timerange type="daily" day="20230817" datetime="202308171200">
 					<value unit="%">70</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
+				<timerange type="daily" day="20230818" datetime="202308181200">
 					<value unit="%">70</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="%">70</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="%">75</value>
 				</timerange>
 			</parameter>
 		<parameter id="tmin" description="Min temperature" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="C">18</value>
-					<value unit="F">64.4</value>
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="C">17</value>
+					<value unit="F">62.6</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="C">20</value>
-					<value unit="F">68</value>
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="C">16</value>
+					<value unit="F">60.8</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="C">20</value>
-					<value unit="F">68</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="C">17</value>
+					<value unit="F">62.6</value>
 				</timerange>
 			</parameter>
 		<parameter id="t" description="Temperature" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="C">19</value>
+					<value unit="F">66.2</value>
+				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
 					<value unit="C">24</value>
 					<value unit="F">75.2</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="C">29</value>
-					<value unit="F">84.2</value>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="C">17</value>
+					<value unit="F">62.6</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="C">24</value>
-					<value unit="F">75.2</value>
+				<timerange type="hourly" h="18" datetime="202308171800">
+					<value unit="C">17</value>
+					<value unit="F">62.6</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="C">19</value>
+					<value unit="F">66.2</value>
+				</timerange>
+				<timerange type="hourly" h="30" datetime="202308180600">
 					<value unit="C">21</value>
 					<value unit="F">69.8</value>
 				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="C">24</value>
-					<value unit="F">75.2</value>
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="C">16</value>
+					<value unit="F">60.8</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="C">29</value>
-					<value unit="F">84.2</value>
+				<timerange type="hourly" h="42" datetime="202308181800">
+					<value unit="C">17</value>
+					<value unit="F">62.6</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="C">24</value>
-					<value unit="F">75.2</value>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="C">18</value>
+					<value unit="F">64.4</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="C">21</value>
-					<value unit="F">69.8</value>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="C">20</value>
+					<value unit="F">68</value>
 				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="C">24</value>
-					<value unit="F">75.2</value>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="C">18</value>
+					<value unit="F">64.4</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="C">28</value>
-					<value unit="F">82.4</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="C">24</value>
-					<value unit="F">75.2</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="C">21</value>
-					<value unit="F">69.8</value>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="C">17</value>
+					<value unit="F">62.6</value>
 				</timerange>
 			</parameter>
 		<parameter id="weather" description="Weather" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
 					<value unit="icon">1</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
+				<timerange type="hourly" h="12" datetime="202308171200">
 					<value unit="icon">60</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="icon">3</value>
-				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="icon">3</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
+				<timerange type="hourly" h="18" datetime="202308171800">
 					<value unit="icon">1</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="30" datetime="202308180600">
 					<value unit="icon">60</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="icon">63</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="icon">60</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
+				<timerange type="hourly" h="48" datetime="202308190000">
 					<value unit="icon">3</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
+				<timerange type="hourly" h="54" datetime="202308190600">
 					<value unit="icon">60</value>
 				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
+				<timerange type="hourly" h="60" datetime="202308191200">
 					<value unit="icon">60</value>
 				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="icon">60</value>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="icon">3</value>
 				</timerange>
 			</parameter>
 		<parameter id="wd" description="Wind direction" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
-				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="deg">270</value>
-					<value unit="CARD">W</value>
-					<value unit="SEXA">27000</value>
-				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
+				<timerange type="hourly" h="0" datetime="202308170000">
 					<value unit="deg">67.5</value>
 					<value unit="CARD">ENE</value>
 					<value unit="SEXA">6730</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="deg">67.5</value>
-					<value unit="CARD">ENE</value>
-					<value unit="SEXA">6730</value>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
 				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="deg">45</value>
-					<value unit="CARD">NE</value>
-					<value unit="SEXA">4500</value>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="deg">202.5</value>
-					<value unit="CARD">SSW</value>
-					<value unit="SEXA">20230</value>
+				<timerange type="hourly" h="18" datetime="202308171800">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="deg">67.5</value>
-					<value unit="CARD">ENE</value>
-					<value unit="SEXA">6730</value>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="deg">90</value>
 					<value unit="CARD">E</value>
 					<value unit="SEXA">9000</value>
 				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="deg">90</value>
+					<value unit="CARD">E</value>
+					<value unit="SEXA">9000</value>
+				</timerange>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="deg">337.5</value>
+					<value unit="CARD">NNW</value>
+					<value unit="SEXA">33730</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
 					<value unit="deg">67.5</value>
 					<value unit="CARD">ENE</value>
 					<value unit="SEXA">6730</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="deg">202.5</value>
-					<value unit="CARD">SSW</value>
-					<value unit="SEXA">20230</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="deg">67.5</value>
-					<value unit="CARD">ENE</value>
-					<value unit="SEXA">6730</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
 				</timerange>
 			</parameter>
 		<parameter id="ws" description="Wind speed" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
-				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
+				<timerange type="hourly" h="0" datetime="202308170000">
 					<value unit="Kt">2</value>
 					<value unit="MPH">2.3015589</value>
 					<value unit="KPH">3.704</value>
 					<value unit="MS">1.028888888</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
-				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
+				<timerange type="hourly" h="6" datetime="202308170600">
 					<value unit="Kt">2</value>
 					<value unit="MPH">2.3015589</value>
 					<value unit="KPH">3.704</value>
 					<value unit="MS">1.028888888</value>
 				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="Kt">10</value>
+					<value unit="MPH">11.5077945</value>
+					<value unit="KPH">18.52</value>
+					<value unit="MS">5.14444444</value>
+				</timerange>
+				<timerange type="hourly" h="18" datetime="202308171800">
 					<value unit="Kt">2</value>
 					<value unit="MPH">2.3015589</value>
 					<value unit="KPH">3.704</value>
 					<value unit="MS">1.028888888</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
+				<timerange type="hourly" h="24" datetime="202308180000">
 					<value unit="Kt">2</value>
 					<value unit="MPH">2.3015589</value>
 					<value unit="KPH">3.704</value>
 					<value unit="MS">1.028888888</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
-				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
+				<timerange type="hourly" h="30" datetime="202308180600">
 					<value unit="Kt">2</value>
 					<value unit="MPH">2.3015589</value>
 					<value unit="KPH">3.704</value>
 					<value unit="MS">1.028888888</value>
 				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
+				<timerange type="hourly" h="36" datetime="202308181200">
 					<value unit="Kt">2</value>
 					<value unit="MPH">2.3015589</value>
 					<value unit="KPH">3.704</value>
 					<value unit="MS">1.028888888</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="Kt">2</value>
 					<value unit="MPH">2.3015589</value>
 					<value unit="KPH">3.704</value>
 					<value unit="MS">1.028888888</value>
 				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="Kt">2</value>
+					<value unit="MPH">2.3015589</value>
+					<value unit="KPH">3.704</value>
+					<value unit="MS">1.028888888</value>
 				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="Kt">2</value>
+					<value unit="MPH">2.3015589</value>
+					<value unit="KPH">3.704</value>
+					<value unit="MS">1.028888888</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="Kt">2</value>
+					<value unit="MPH">2.3015589</value>
+					<value unit="KPH">3.704</value>
+					<value unit="MS">1.028888888</value>
+				</timerange>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="Kt">2</value>
+					<value unit="MPH">2.3015589</value>
+					<value unit="KPH">3.704</value>
+					<value unit="MS">1.028888888</value>
 				</timerange>
 			</parameter></area><area id="501485" latitude="-2.683333335" longitude="118.8333" coordinate="118.8333 -2.683333335" type="land" region="" level="1" description="Mamuju"  domain="Sulawesi Barat"  tags="">
 <name xml:lang="en_US">Mamuju</name>
 <name xml:lang="id_ID">Kab. Mamuju</name>
 
 		<parameter id="hu" description="Humidity" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="%">65</value>
+				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="%">60</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
+				<timerange type="hourly" h="18" datetime="202308171800">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="%">90</value>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="%">65</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="%">85</value>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="%">60</value>
 				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
+				<timerange type="hourly" h="36" datetime="202308181200">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="%">70</value>
-				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="%">80</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="%">80</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
+				<timerange type="hourly" h="48" datetime="202308190000">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="%">75</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
 					<value unit="%">80</value>
 				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
+				<timerange type="hourly" h="66" datetime="202308191800">
 					<value unit="%">80</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="%">85</value>
 				</timerange>
 			</parameter>
 		<parameter id="humax" description="Max humidity" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="%">90</value>
-				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
+				<timerange type="daily" day="20230817" datetime="202308171200">
 					<value unit="%">85</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="%">80</value>
+				</timerange>
+				<timerange type="daily" day="20230819" datetime="202308191200">
 					<value unit="%">85</value>
 				</timerange>
 			</parameter>
 		<parameter id="tmax" description="Max temperature" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="C">33</value>
+					<value unit="F">91.4</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="C">30</value>
+					<value unit="F">86</value>
 				</timerange>
 			</parameter>
 		<parameter id="humin" description="Min humidity" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="%">70</value>
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="%">60</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="%">70</value>
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="%">60</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="%">75</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="%">70</value>
 				</timerange>
 			</parameter>
 		<parameter id="tmin" description="Min temperature" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="C">24</value>
+					<value unit="F">75.2</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
-				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
-				</timerange>
-			</parameter>
-		<parameter id="t" description="Temperature" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
-				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
-				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
+				<timerange type="daily" day="20230818" datetime="202308181200">
 					<value unit="C">26</value>
 					<value unit="F">78.8</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="C">26</value>
+					<value unit="F">78.8</value>
 				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
+			</parameter>
+		<parameter id="t" description="Temperature" type="hourly">
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="C">29</value>
+					<value unit="F">84.2</value>
+				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="C">33</value>
+					<value unit="F">91.4</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="C">28</value>
+					<value unit="F">82.4</value>
+				</timerange>
+				<timerange type="hourly" h="18" datetime="202308171800">
 					<value unit="C">27</value>
 					<value unit="F">80.6</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="C">29</value>
+					<value unit="F">84.2</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
 					<value unit="C">27</value>
 					<value unit="F">80.6</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
+				<timerange type="hourly" h="42" datetime="202308181800">
+					<value unit="C">26</value>
+					<value unit="F">78.8</value>
 				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="C">28</value>
+					<value unit="F">82.4</value>
+				</timerange>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="C">30</value>
+					<value unit="F">86</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
 					<value unit="C">27</value>
 					<value unit="F">80.6</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="C">26</value>
+					<value unit="F">78.8</value>
 				</timerange>
 			</parameter>
 		<parameter id="weather" description="Weather" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
 					<value unit="icon">1</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
+				<timerange type="hourly" h="18" datetime="202308171800">
+					<value unit="icon">1</value>
+				</timerange>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="icon">1</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
 					<value unit="icon">60</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
+				<timerange type="hourly" h="42" datetime="202308181800">
+					<value unit="icon">3</value>
+				</timerange>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="icon">3</value>
+				</timerange>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="icon">60</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
 					<value unit="icon">61</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="icon">1</value>
-				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
+				<timerange type="hourly" h="66" datetime="202308191800">
 					<value unit="icon">3</value>
-				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="icon">3</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="icon">3</value>
-				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="icon">60</value>
 				</timerange>
 			</parameter>
 		<parameter id="wd" description="Wind direction" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
-					<value unit="deg">337.5</value>
-					<value unit="CARD">NNW</value>
-					<value unit="SEXA">33730</value>
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="deg">157.5</value>
+					<value unit="CARD">SSE</value>
+					<value unit="SEXA">15730</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="deg">270</value>
-					<value unit="CARD">W</value>
-					<value unit="SEXA">27000</value>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
+				</timerange>
+				<timerange type="hourly" h="18" datetime="202308171800">
+					<value unit="deg">157.5</value>
+					<value unit="CARD">SSE</value>
+					<value unit="SEXA">15730</value>
+				</timerange>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
+				</timerange>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="deg">90</value>
 					<value unit="CARD">E</value>
 					<value unit="SEXA">9000</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="deg">90</value>
-					<value unit="CARD">E</value>
-					<value unit="SEXA">9000</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="deg">45</value>
-					<value unit="CARD">NE</value>
-					<value unit="SEXA">4500</value>
-				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
-				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="deg">45</value>
-					<value unit="CARD">NE</value>
-					<value unit="SEXA">4500</value>
-				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="deg">67.5</value>
-					<value unit="CARD">ENE</value>
-					<value unit="SEXA">6730</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="deg">45</value>
-					<value unit="CARD">NE</value>
-					<value unit="SEXA">4500</value>
-				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="deg">315</value>
-					<value unit="CARD">NW</value>
-					<value unit="SEXA">31500</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
+				<timerange type="hourly" h="48" datetime="202308190000">
 					<value unit="deg">22.5</value>
 					<value unit="CARD">NNE</value>
 					<value unit="SEXA">2230</value>
 				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="deg">157.5</value>
+					<value unit="CARD">SSE</value>
+					<value unit="SEXA">15730</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="deg">157.5</value>
+					<value unit="CARD">SSE</value>
+					<value unit="SEXA">15730</value>
+				</timerange>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
 				</timerange>
 			</parameter>
 		<parameter id="ws" description="Wind speed" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
-					<value unit="Kt">2</value>
-					<value unit="MPH">2.3015589</value>
-					<value unit="KPH">3.704</value>
-					<value unit="MS">1.028888888</value>
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="Kt">10</value>
+					<value unit="MPH">11.5077945</value>
+					<value unit="KPH">18.52</value>
+					<value unit="MS">5.14444444</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="Kt">10</value>
+					<value unit="MPH">11.5077945</value>
+					<value unit="KPH">18.52</value>
+					<value unit="MS">5.14444444</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="Kt">10</value>
+					<value unit="MPH">11.5077945</value>
+					<value unit="KPH">18.52</value>
+					<value unit="MS">5.14444444</value>
+				</timerange>
+				<timerange type="hourly" h="18" datetime="202308171800">
+					<value unit="Kt">10</value>
+					<value unit="MPH">11.5077945</value>
+					<value unit="KPH">18.52</value>
+					<value unit="MS">5.14444444</value>
+				</timerange>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="Kt">10</value>
+					<value unit="MPH">11.5077945</value>
+					<value unit="KPH">18.52</value>
+					<value unit="MS">5.14444444</value>
+				</timerange>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="Kt">10</value>
+					<value unit="MPH">11.5077945</value>
+					<value unit="KPH">18.52</value>
+					<value unit="MS">5.14444444</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="Kt">15</value>
+					<value unit="MPH">17.26169175</value>
+					<value unit="KPH">27.78</value>
+					<value unit="MS">7.71666666</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
 					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
+				<timerange type="hourly" h="48" datetime="202308190000">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
 					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="Kt">10</value>
+					<value unit="MPH">11.5077945</value>
+					<value unit="KPH">18.52</value>
+					<value unit="MS">5.14444444</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="Kt">10</value>
+					<value unit="MPH">11.5077945</value>
+					<value unit="KPH">18.52</value>
+					<value unit="MS">5.14444444</value>
+				</timerange>
+				<timerange type="hourly" h="66" datetime="202308191800">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
 					<value unit="MS">2.57222222</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
-				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
-				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
-				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="Kt">2</value>
-					<value unit="MPH">2.3015589</value>
-					<value unit="KPH">3.704</value>
-					<value unit="MS">1.028888888</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
-				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="Kt">5</value>
-					<value unit="MPH">5.75389725</value>
-					<value unit="KPH">9.26</value>
-					<value unit="MS">2.57222222</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
 				</timerange>
 			</parameter></area><area id="1200113" latitude="-2.057434" longitude="119.270325" coordinate="119.270325 -2.057434" type="land" region="" level="1" description="Mamuju Tengah"  domain="Sulawesi Barat"  tags="">
 <name xml:lang="en_US">Mamuju Tengah</name>
 <name xml:lang="id_ID">Kab. Mamuju Tengah</name>
 
 		<parameter id="hu" description="Humidity" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="%">65</value>
+				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="%">60</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
+				<timerange type="hourly" h="18" datetime="202308171800">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="%">90</value>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="%">65</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="%">95</value>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="%">60</value>
 				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="%">75</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="%">80</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="%">85</value>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="%">95</value>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="%">65</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="%">90</value>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
+				<timerange type="hourly" h="66" datetime="202308191800">
 					<value unit="%">80</value>
-				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="%">80</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="%">80</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="%">85</value>
 				</timerange>
 			</parameter>
 		<parameter id="humax" description="Max humidity" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="%">90</value>
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="%">85</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="%">95</value>
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="%">80</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="%">90</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="%">80</value>
 				</timerange>
 			</parameter>
 		<parameter id="tmax" description="Max temperature" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="C">33</value>
+					<value unit="F">91.4</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="C">30</value>
-					<value unit="F">86</value>
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
 				</timerange>
 			</parameter>
 		<parameter id="humin" description="Min humidity" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="%">70</value>
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="%">60</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="%">70</value>
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="%">60</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="%">70</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="%">65</value>
 				</timerange>
 			</parameter>
 		<parameter id="tmin" description="Min temperature" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
-				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
+				<timerange type="daily" day="20230817" datetime="202308171200">
 					<value unit="C">24</value>
 					<value unit="F">75.2</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="C">24</value>
-					<value unit="F">75.2</value>
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="C">26</value>
+					<value unit="F">78.8</value>
+				</timerange>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="C">26</value>
+					<value unit="F">78.8</value>
 				</timerange>
 			</parameter>
 		<parameter id="t" description="Temperature" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="C">29</value>
+					<value unit="F">84.2</value>
+				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="C">33</value>
+					<value unit="F">91.4</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="C">28</value>
+					<value unit="F">82.4</value>
+				</timerange>
+				<timerange type="hourly" h="18" datetime="202308171800">
 					<value unit="C">27</value>
 					<value unit="F">80.6</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="C">29</value>
+					<value unit="F">84.2</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="C">27</value>
+					<value unit="F">80.6</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="C">26</value>
 					<value unit="F">78.8</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="C">24</value>
-					<value unit="F">75.2</value>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="C">28</value>
+					<value unit="F">82.4</value>
 				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="C">30</value>
-					<value unit="F">86</value>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="C">28</value>
+					<value unit="F">82.4</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
+				<timerange type="hourly" h="66" datetime="202308191800">
 					<value unit="C">26</value>
 					<value unit="F">78.8</value>
-				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="C">24</value>
-					<value unit="F">75.2</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
-				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
 				</timerange>
 			</parameter>
 		<parameter id="weather" description="Weather" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="icon">1</value>
+				</timerange>
+				<timerange type="hourly" h="18" datetime="202308171800">
+					<value unit="icon">1</value>
+				</timerange>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="icon">1</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="icon">60</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="icon">3</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="icon">3</value>
+				</timerange>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="icon">3</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
 					<value unit="icon">60</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="icon">61</value>
-				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="icon">63</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="icon">61</value>
-				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="icon">63</value>
-				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="icon">61</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="icon">60</value>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="icon">3</value>
 				</timerange>
 			</parameter>
 		<parameter id="wd" description="Wind direction" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
-				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="deg">292.5</value>
-					<value unit="CARD">WNW</value>
-					<value unit="SEXA">29230</value>
-				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
-				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="deg">135</value>
-					<value unit="CARD">SE</value>
-					<value unit="SEXA">13500</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="deg">22.5</value>
-					<value unit="CARD">NNE</value>
-					<value unit="SEXA">2230</value>
-				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="deg">315</value>
-					<value unit="CARD">NW</value>
-					<value unit="SEXA">31500</value>
-				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="deg">90</value>
-					<value unit="CARD">E</value>
-					<value unit="SEXA">9000</value>
-				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
-				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="deg">292.5</value>
-					<value unit="CARD">WNW</value>
-					<value unit="SEXA">29230</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
+				<timerange type="hourly" h="0" datetime="202308170000">
 					<value unit="deg">67.5</value>
 					<value unit="CARD">ENE</value>
 					<value unit="SEXA">6730</value>
 				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
+				<timerange type="hourly" h="6" datetime="202308170600">
 					<value unit="deg">0</value>
 					<value unit="CARD">VARIABLE</value>
 					<value unit="SEXA">000</value>
 				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
+				</timerange>
+				<timerange type="hourly" h="18" datetime="202308171800">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
+				</timerange>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
+				</timerange>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="deg">292.5</value>
+					<value unit="CARD">WNW</value>
+					<value unit="SEXA">29230</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
+					<value unit="deg">0</value>
+					<value unit="CARD">VARIABLE</value>
+					<value unit="SEXA">000</value>
+				</timerange>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
+				</timerange>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="deg">337.5</value>
+					<value unit="CARD">NNW</value>
+					<value unit="SEXA">33730</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="deg">67.5</value>
+					<value unit="CARD">ENE</value>
+					<value unit="SEXA">6730</value>
+				</timerange>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
+				</timerange>
 			</parameter>
 		<parameter id="ws" description="Wind speed" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
-				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
+				<timerange type="hourly" h="0" datetime="202308170000">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
 					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
+				<timerange type="hourly" h="6" datetime="202308170600">
 					<value unit="Kt">0</value>
 					<value unit="MPH">0</value>
 					<value unit="KPH">0</value>
 					<value unit="MS">0</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="Kt">2</value>
-					<value unit="MPH">2.3015589</value>
-					<value unit="KPH">3.704</value>
-					<value unit="MS">1.028888888</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="Kt">2</value>
-					<value unit="MPH">2.3015589</value>
-					<value unit="KPH">3.704</value>
-					<value unit="MS">1.028888888</value>
-				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
+				<timerange type="hourly" h="12" datetime="202308171200">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
 					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="Kt">2</value>
-					<value unit="MPH">2.3015589</value>
-					<value unit="KPH">3.704</value>
-					<value unit="MS">1.028888888</value>
+				<timerange type="hourly" h="18" datetime="202308171800">
+					<value unit="Kt">5</value>
+					<value unit="MPH">5.75389725</value>
+					<value unit="KPH">9.26</value>
+					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="Kt">5</value>
+					<value unit="MPH">5.75389725</value>
+					<value unit="KPH">9.26</value>
+					<value unit="MS">2.57222222</value>
+				</timerange>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="Kt">5</value>
+					<value unit="MPH">5.75389725</value>
+					<value unit="KPH">9.26</value>
+					<value unit="MS">2.57222222</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="Kt">5</value>
+					<value unit="MPH">5.75389725</value>
+					<value unit="KPH">9.26</value>
+					<value unit="MS">2.57222222</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="Kt">0</value>
 					<value unit="MPH">0</value>
 					<value unit="KPH">0</value>
 					<value unit="MS">0</value>
 				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="Kt">5</value>
+					<value unit="MPH">5.75389725</value>
+					<value unit="KPH">9.26</value>
+					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="Kt">2</value>
-					<value unit="MPH">2.3015589</value>
-					<value unit="KPH">3.704</value>
-					<value unit="MS">1.028888888</value>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="Kt">5</value>
+					<value unit="MPH">5.75389725</value>
+					<value unit="KPH">9.26</value>
+					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="Kt">2</value>
-					<value unit="MPH">2.3015589</value>
-					<value unit="KPH">3.704</value>
-					<value unit="MS">1.028888888</value>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="Kt">5</value>
+					<value unit="MPH">5.75389725</value>
+					<value unit="KPH">9.26</value>
+					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="Kt">5</value>
+					<value unit="MPH">5.75389725</value>
+					<value unit="KPH">9.26</value>
+					<value unit="MS">2.57222222</value>
 				</timerange>
 			</parameter></area><area id="501486" latitude="-1.34188" longitude="119.37677" coordinate="119.37677 -1.34188" type="land" region="" level="1" description="Mamuju Utara"  domain="Sulawesi Barat"  tags="">
 <name xml:lang="en_US">Mamuju Utara</name>
 <name xml:lang="id_ID">Kab. Mamuju Utara</name>
 
 		<parameter id="hu" description="Humidity" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="%">65</value>
+				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="%">60</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
+				<timerange type="hourly" h="18" datetime="202308171800">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="%">80</value>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="%">65</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="%">95</value>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="%">60</value>
 				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="%">80</value>
-				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
+				<timerange type="hourly" h="36" datetime="202308181200">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="%">90</value>
-				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="%">95</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="%">80</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="%">80</value>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="%">80</value>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="%">65</value>
 				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="%">85</value>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="%">75</value>
+				</timerange>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="%">80</value>
 				</timerange>
 			</parameter>
 		<parameter id="humax" description="Max humidity" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="%">90</value>
+				</timerange>
+				<timerange type="daily" day="20230818" datetime="202308181200">
 					<value unit="%">80</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="%">95</value>
-				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="%">95</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="%">80</value>
 				</timerange>
 			</parameter>
 		<parameter id="tmax" description="Max temperature" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="C">33</value>
+					<value unit="F">91.4</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
 				</timerange>
 			</parameter>
 		<parameter id="humin" description="Min humidity" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="%">70</value>
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="%">60</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="%">75</value>
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="%">60</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="%">75</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="%">65</value>
 				</timerange>
 			</parameter>
 		<parameter id="tmin" description="Min temperature" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="C">23</value>
+					<value unit="F">73.4</value>
+				</timerange>
+				<timerange type="daily" day="20230818" datetime="202308181200">
 					<value unit="C">26</value>
 					<value unit="F">78.8</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="C">24</value>
-					<value unit="F">75.2</value>
-				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="C">24</value>
-					<value unit="F">75.2</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="C">26</value>
+					<value unit="F">78.8</value>
 				</timerange>
 			</parameter>
 		<parameter id="t" description="Temperature" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="C">29</value>
+					<value unit="F">84.2</value>
+				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="C">33</value>
+					<value unit="F">91.4</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="C">28</value>
+					<value unit="F">82.4</value>
+				</timerange>
+				<timerange type="hourly" h="18" datetime="202308171800">
 					<value unit="C">27</value>
 					<value unit="F">80.6</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="C">29</value>
+					<value unit="F">84.2</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
 					<value unit="C">27</value>
 					<value unit="F">80.6</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="C">24</value>
-					<value unit="F">75.2</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
-				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
-				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="C">26</value>
 					<value unit="F">78.8</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="C">24</value>
-					<value unit="F">75.2</value>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="C">28</value>
+					<value unit="F">82.4</value>
 				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="C">28</value>
+					<value unit="F">82.4</value>
 				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="C">26</value>
+					<value unit="F">78.8</value>
 				</timerange>
 			</parameter>
 		<parameter id="weather" description="Weather" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="icon">1</value>
+				</timerange>
+				<timerange type="hourly" h="18" datetime="202308171800">
+					<value unit="icon">1</value>
+				</timerange>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="icon">1</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="icon">60</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="icon">3</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="icon">3</value>
+				</timerange>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="icon">3</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
 					<value unit="icon">60</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="icon">63</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="icon">61</value>
-				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="icon">63</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="icon">60</value>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="icon">3</value>
 				</timerange>
 			</parameter>
 		<parameter id="wd" description="Wind direction" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
-					<value unit="deg">180</value>
-					<value unit="CARD">S</value>
-					<value unit="SEXA">18000</value>
-				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="deg">247.5</value>
-					<value unit="CARD">WSW</value>
-					<value unit="SEXA">24730</value>
-				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="deg">157.5</value>
-					<value unit="CARD">SSE</value>
-					<value unit="SEXA">15730</value>
-				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="deg">45</value>
-					<value unit="CARD">NE</value>
-					<value unit="SEXA">4500</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="deg">180</value>
-					<value unit="CARD">S</value>
-					<value unit="SEXA">18000</value>
-				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="deg">315</value>
-					<value unit="CARD">NW</value>
-					<value unit="SEXA">31500</value>
-				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="deg">90</value>
-					<value unit="CARD">E</value>
-					<value unit="SEXA">9000</value>
-				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="deg">292.5</value>
-					<value unit="CARD">WNW</value>
-					<value unit="SEXA">29230</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="deg">225</value>
-					<value unit="CARD">SW</value>
-					<value unit="SEXA">22500</value>
-				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="deg">315</value>
-					<value unit="CARD">NW</value>
-					<value unit="SEXA">31500</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="deg">157.5</value>
-					<value unit="CARD">SSE</value>
-					<value unit="SEXA">15730</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
+				<timerange type="hourly" h="0" datetime="202308170000">
 					<value unit="deg">67.5</value>
 					<value unit="CARD">ENE</value>
 					<value unit="SEXA">6730</value>
 				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="deg">0</value>
+					<value unit="CARD">VARIABLE</value>
+					<value unit="SEXA">000</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
+				</timerange>
+				<timerange type="hourly" h="18" datetime="202308171800">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
+				</timerange>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
+				</timerange>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="deg">292.5</value>
+					<value unit="CARD">WNW</value>
+					<value unit="SEXA">29230</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
+					<value unit="deg">0</value>
+					<value unit="CARD">VARIABLE</value>
+					<value unit="SEXA">000</value>
+				</timerange>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
+				</timerange>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="deg">337.5</value>
+					<value unit="CARD">NNW</value>
+					<value unit="SEXA">33730</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="deg">67.5</value>
+					<value unit="CARD">ENE</value>
+					<value unit="SEXA">6730</value>
+				</timerange>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
+				</timerange>
 			</parameter>
 		<parameter id="ws" description="Wind speed" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
+				<timerange type="hourly" h="0" datetime="202308170000">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
 					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="Kt">0</value>
+					<value unit="MPH">0</value>
+					<value unit="KPH">0</value>
+					<value unit="MS">0</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
 					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
+				<timerange type="hourly" h="18" datetime="202308171800">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
 					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="Kt">2</value>
-					<value unit="MPH">2.3015589</value>
-					<value unit="KPH">3.704</value>
-					<value unit="MS">1.028888888</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
+				<timerange type="hourly" h="24" datetime="202308180000">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
 					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
+				<timerange type="hourly" h="30" datetime="202308180600">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
 					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
+				<timerange type="hourly" h="36" datetime="202308181200">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
 					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="Kt">2</value>
-					<value unit="MPH">2.3015589</value>
-					<value unit="KPH">3.704</value>
-					<value unit="MS">1.028888888</value>
+				<timerange type="hourly" h="42" datetime="202308181800">
+					<value unit="Kt">0</value>
+					<value unit="MPH">0</value>
+					<value unit="KPH">0</value>
+					<value unit="MS">0</value>
 				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="Kt">2</value>
-					<value unit="MPH">2.3015589</value>
-					<value unit="KPH">3.704</value>
-					<value unit="MS">1.028888888</value>
-				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
+				<timerange type="hourly" h="48" datetime="202308190000">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
 					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
+				<timerange type="hourly" h="54" datetime="202308190600">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
 					<value unit="MS">2.57222222</value>
 				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="Kt">5</value>
+					<value unit="MPH">5.75389725</value>
+					<value unit="KPH">9.26</value>
+					<value unit="MS">2.57222222</value>
+				</timerange>
+				<timerange type="hourly" h="66" datetime="202308191800">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
@@ -1590,315 +1590,315 @@
 <name xml:lang="id_ID">Kab. Polewali Mandar</name>
 
 		<parameter id="hu" description="Humidity" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
-					<value unit="%">75</value>
-				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
+				<timerange type="hourly" h="0" datetime="202308170000">
 					<value unit="%">65</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="%">60</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="%">80</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
+				<timerange type="hourly" h="18" datetime="202308171800">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="%">70</value>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="%">65</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="%">80</value>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="%">60</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="%">85</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
+				<timerange type="hourly" h="36" datetime="202308181200">
 					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="%">80</value>
 				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="%">80</value>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="%">75</value>
 				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="%">65</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="%">75</value>
+				</timerange>
+				<timerange type="hourly" h="66" datetime="202308191800">
 					<value unit="%">80</value>
 				</timerange>
 			</parameter>
 		<parameter id="humax" description="Max humidity" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="%">85</value>
+				</timerange>
+				<timerange type="daily" day="20230818" datetime="202308181200">
 					<value unit="%">80</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="%">85</value>
-				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="%">85</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="%">80</value>
 				</timerange>
 			</parameter>
 		<parameter id="tmax" description="Max temperature" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="C">33</value>
+					<value unit="F">91.4</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
 				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
 				</timerange>
 			</parameter>
 		<parameter id="humin" description="Min humidity" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="%">60</value>
+				</timerange>
+				<timerange type="daily" day="20230818" datetime="202308181200">
+					<value unit="%">60</value>
+				</timerange>
+				<timerange type="daily" day="20230819" datetime="202308191200">
 					<value unit="%">65</value>
-				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="%">70</value>
-				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="%">70</value>
 				</timerange>
 			</parameter>
 		<parameter id="tmin" description="Min temperature" type="daily">
-				<timerange type="daily" day="20220601" datetime="202206011200">
+				<timerange type="daily" day="20230817" datetime="202308171200">
+					<value unit="C">24</value>
+					<value unit="F">75.2</value>
+				</timerange>
+				<timerange type="daily" day="20230818" datetime="202308181200">
 					<value unit="C">26</value>
 					<value unit="F">78.8</value>
 				</timerange>
-				<timerange type="daily" day="20220602" datetime="202206021200">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
-				</timerange>
-				<timerange type="daily" day="20220603" datetime="202206031200">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
+				<timerange type="daily" day="20230819" datetime="202308191200">
+					<value unit="C">26</value>
+					<value unit="F">78.8</value>
 				</timerange>
 			</parameter>
 		<parameter id="t" description="Temperature" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="C">29</value>
+					<value unit="F">84.2</value>
+				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="C">33</value>
+					<value unit="F">91.4</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="C">28</value>
+					<value unit="F">82.4</value>
+				</timerange>
+				<timerange type="hourly" h="18" datetime="202308171800">
 					<value unit="C">27</value>
 					<value unit="F">80.6</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="C">29</value>
+					<value unit="F">84.2</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
 					<value unit="C">27</value>
 					<value unit="F">80.6</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
+				<timerange type="hourly" h="42" datetime="202308181800">
+					<value unit="C">26</value>
+					<value unit="F">78.8</value>
 				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="C">28</value>
+					<value unit="F">82.4</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="C">32</value>
+					<value unit="F">89.6</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="C">28</value>
+					<value unit="F">82.4</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
-				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="C">31</value>
-					<value unit="F">87.8</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="C">27</value>
-					<value unit="F">80.6</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="C">25</value>
-					<value unit="F">77</value>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="C">26</value>
+					<value unit="F">78.8</value>
 				</timerange>
 			</parameter>
 		<parameter id="weather" description="Weather" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="12" datetime="202308171200">
 					<value unit="icon">1</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="icon">3</value>
-				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="icon">3</value>
-				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="icon">3</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
+				<timerange type="hourly" h="18" datetime="202308171800">
 					<value unit="icon">1</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="icon">0</value>
+				</timerange>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="icon">1</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="icon">60</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
 					<value unit="icon">3</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
+				<timerange type="hourly" h="48" datetime="202308190000">
 					<value unit="icon">3</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="icon">3</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
 					<value unit="icon">60</value>
 				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="icon">60</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
+				<timerange type="hourly" h="66" datetime="202308191800">
 					<value unit="icon">3</value>
 				</timerange>
 			</parameter>
 		<parameter id="wd" description="Wind direction" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="deg">157.5</value>
+					<value unit="CARD">SSE</value>
+					<value unit="SEXA">15730</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="deg">202.5</value>
-					<value unit="CARD">SSW</value>
-					<value unit="SEXA">20230</value>
-				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="deg">90</value>
-					<value unit="CARD">E</value>
-					<value unit="SEXA">9000</value>
-				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
-				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
-				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="deg">202.5</value>
-					<value unit="CARD">SSW</value>
-					<value unit="SEXA">20230</value>
-				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
-				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
-				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
-				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
-					<value unit="deg">180</value>
-					<value unit="CARD">S</value>
-					<value unit="SEXA">18000</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
+				<timerange type="hourly" h="6" datetime="202308170600">
 					<value unit="deg">135</value>
 					<value unit="CARD">SE</value>
 					<value unit="SEXA">13500</value>
 				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="deg">0</value>
-					<value unit="CARD">VARIABLE</value>
-					<value unit="SEXA">000</value>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
+				</timerange>
+				<timerange type="hourly" h="18" datetime="202308171800">
+					<value unit="deg">157.5</value>
+					<value unit="CARD">SSE</value>
+					<value unit="SEXA">15730</value>
+				</timerange>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
+				</timerange>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
+				</timerange>
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="deg">135</value>
+					<value unit="CARD">SE</value>
+					<value unit="SEXA">13500</value>
+				</timerange>
+				<timerange type="hourly" h="42" datetime="202308181800">
+					<value unit="deg">90</value>
+					<value unit="CARD">E</value>
+					<value unit="SEXA">9000</value>
+				</timerange>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="deg">90</value>
+					<value unit="CARD">E</value>
+					<value unit="SEXA">9000</value>
+				</timerange>
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="deg">157.5</value>
+					<value unit="CARD">SSE</value>
+					<value unit="SEXA">15730</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="deg">157.5</value>
+					<value unit="CARD">SSE</value>
+					<value unit="SEXA">15730</value>
+				</timerange>
+				<timerange type="hourly" h="66" datetime="202308191800">
+					<value unit="deg">22.5</value>
+					<value unit="CARD">NNE</value>
+					<value unit="SEXA">2230</value>
 				</timerange>
 			</parameter>
 		<parameter id="ws" description="Wind speed" type="hourly">
-				<timerange type="hourly" h="0" datetime="202206010000">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
+				<timerange type="hourly" h="0" datetime="202308170000">
+					<value unit="Kt">15</value>
+					<value unit="MPH">17.26169175</value>
+					<value unit="KPH">27.78</value>
+					<value unit="MS">7.71666666</value>
 				</timerange>
-				<timerange type="hourly" h="6" datetime="202206010600">
-					<value unit="Kt">2</value>
-					<value unit="MPH">2.3015589</value>
-					<value unit="KPH">3.704</value>
-					<value unit="MS">1.028888888</value>
+				<timerange type="hourly" h="6" datetime="202308170600">
+					<value unit="Kt">10</value>
+					<value unit="MPH">11.5077945</value>
+					<value unit="KPH">18.52</value>
+					<value unit="MS">5.14444444</value>
 				</timerange>
-				<timerange type="hourly" h="12" datetime="202206011200">
-					<value unit="Kt">2</value>
-					<value unit="MPH">2.3015589</value>
-					<value unit="KPH">3.704</value>
-					<value unit="MS">1.028888888</value>
+				<timerange type="hourly" h="12" datetime="202308171200">
+					<value unit="Kt">15</value>
+					<value unit="MPH">17.26169175</value>
+					<value unit="KPH">27.78</value>
+					<value unit="MS">7.71666666</value>
 				</timerange>
-				<timerange type="hourly" h="18" datetime="202206011800">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
+				<timerange type="hourly" h="18" datetime="202308171800">
+					<value unit="Kt">10</value>
+					<value unit="MPH">11.5077945</value>
+					<value unit="KPH">18.52</value>
+					<value unit="MS">5.14444444</value>
 				</timerange>
-				<timerange type="hourly" h="24" datetime="202206020000">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
+				<timerange type="hourly" h="24" datetime="202308180000">
+					<value unit="Kt">10</value>
+					<value unit="MPH">11.5077945</value>
+					<value unit="KPH">18.52</value>
+					<value unit="MS">5.14444444</value>
 				</timerange>
-				<timerange type="hourly" h="30" datetime="202206020600">
-					<value unit="Kt">2</value>
-					<value unit="MPH">2.3015589</value>
-					<value unit="KPH">3.704</value>
-					<value unit="MS">1.028888888</value>
+				<timerange type="hourly" h="30" datetime="202308180600">
+					<value unit="Kt">10</value>
+					<value unit="MPH">11.5077945</value>
+					<value unit="KPH">18.52</value>
+					<value unit="MS">5.14444444</value>
 				</timerange>
-				<timerange type="hourly" h="36" datetime="202206021200">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
+				<timerange type="hourly" h="36" datetime="202308181200">
+					<value unit="Kt">20</value>
+					<value unit="MPH">23.015589</value>
+					<value unit="KPH">37.04</value>
+					<value unit="MS">10.28888888</value>
 				</timerange>
-				<timerange type="hourly" h="42" datetime="202206021800">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
+				<timerange type="hourly" h="42" datetime="202308181800">
+					<value unit="Kt">15</value>
+					<value unit="MPH">17.26169175</value>
+					<value unit="KPH">27.78</value>
+					<value unit="MS">7.71666666</value>
 				</timerange>
-				<timerange type="hourly" h="48" datetime="202206030000">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
+				<timerange type="hourly" h="48" datetime="202308190000">
+					<value unit="Kt">15</value>
+					<value unit="MPH">17.26169175</value>
+					<value unit="KPH">27.78</value>
+					<value unit="MS">7.71666666</value>
 				</timerange>
-				<timerange type="hourly" h="54" datetime="202206030600">
+				<timerange type="hourly" h="54" datetime="202308190600">
+					<value unit="Kt">20</value>
+					<value unit="MPH">23.015589</value>
+					<value unit="KPH">37.04</value>
+					<value unit="MS">10.28888888</value>
+				</timerange>
+				<timerange type="hourly" h="60" datetime="202308191200">
+					<value unit="Kt">15</value>
+					<value unit="MPH">17.26169175</value>
+					<value unit="KPH">27.78</value>
+					<value unit="MS">7.71666666</value>
+				</timerange>
+				<timerange type="hourly" h="66" datetime="202308191800">
 					<value unit="Kt">5</value>
 					<value unit="MPH">5.75389725</value>
 					<value unit="KPH">9.26</value>
 					<value unit="MS">2.57222222</value>
-				</timerange>
-				<timerange type="hourly" h="60" datetime="202206031200">
-					<value unit="Kt">2</value>
-					<value unit="MPH">2.3015589</value>
-					<value unit="KPH">3.704</value>
-					<value unit="MS">1.028888888</value>
-				</timerange>
-				<timerange type="hourly" h="66" datetime="202206031800">
-					<value unit="Kt">0</value>
-					<value unit="MPH">0</value>
-					<value unit="KPH">0</value>
-					<value unit="MS">0</value>
 				</timerange>
 			</parameter></area>
 </forecast>
