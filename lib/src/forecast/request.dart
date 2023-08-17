@@ -1,5 +1,6 @@
 import 'package:bmkg_open_data/src/client.dart';
 import 'package:bmkg_open_data/src/forecast/model.dart';
+import 'package:meta/meta.dart';
 import 'package:xml/xml.dart';
 
 final Uri _baseUri = baseBmkgUri.replace(
@@ -170,5 +171,7 @@ enum ForecastPlace {
   });
 
   final String label;
+
+  @protected
   final String fileName;
 }
