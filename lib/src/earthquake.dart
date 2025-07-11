@@ -1,6 +1,3 @@
-import 'package:meta/meta.dart';
-
-@immutable
 sealed class Earthquake {
   const Earthquake({
     required this.dateTime,
@@ -19,7 +16,6 @@ sealed class Earthquake {
   final String region;
 }
 
-@immutable
 final class LastEarthquake extends Earthquake {
   const LastEarthquake({
     required super.dateTime,
@@ -71,7 +67,6 @@ final class LastEarthquake extends Earthquake {
   );
 }
 
-@immutable
 final class RecentEarthquake extends Earthquake {
   const RecentEarthquake({
     required super.dateTime,
@@ -102,7 +97,6 @@ final class RecentEarthquake extends Earthquake {
   final String potency;
 }
 
-@immutable
 final class EarthquakeFelt extends Earthquake {
   const EarthquakeFelt({
     required super.dateTime,

@@ -3,78 +3,24 @@
 import 'package:bmkg_open_data/bmkg_open_data.dart';
 
 Future<void> main() async {
-  // FORECAST
-  for (final place in ForecastPlace.values) {
-    final forecast = await getForecast(place: place);
-    final sb = StringBuffer();
+  const bmkg = Bmkg();
 
-    sb.writeln(place);
-    sb.writeln(forecast.source);
-    sb.writeln(forecast.productionCenter);
-    sb.writeln(forecast.issue);
-    sb.writeln('');
+  // WEATHER FORECAST
+  final sb0 = StringBuffer();
+  final weatherForecast = await bmkg.getWeatherForecast(adm4: '31.71.01.1001');
+  sb0.writeln('Location');
+  sb0.writeln('Administrative Code: ${weatherForecast.location.adm4}');
+  sb0.writeln(
+    '${weatherForecast.location.desa}, ${weatherForecast.location.kecamatan}, ${weatherForecast.location.kotkab}, ${weatherForecast.location.provinsi}',
+  );
+  sb0.writeln('Time: ${weatherForecast.data.first.dateTime.toLocal()}');
+  sb0.writeln('Temperature: ${weatherForecast.data.first.t} C');
 
-    for (final area in forecast.areas) {
-      sb.writeln('ID: ${area.id} DOMAIN: ${area.domain}');
-
-      sb.writeln('Humidity');
-      for (final h in area.humidity) {
-        sb.writeln('  [${h.dateTime}] ${h.value}');
-      }
-
-      sb.writeln('Max Humidity');
-      for (final maxh in area.maxHumidity) {
-        sb.writeln('  [${maxh.dateTime}] ${maxh.value}');
-      }
-
-      sb.writeln('Min Humidity');
-      for (final minh in area.minHumidity) {
-        sb.writeln('  [${minh.dateTime}] ${minh.value}');
-      }
-
-      sb.writeln('Temperature');
-      for (final h in area.temperature) {
-        sb.writeln('  [${h.dateTime}] ${h.celcius}');
-      }
-
-      sb.writeln('Max Temperature');
-      for (final maxh in area.maxTemperature) {
-        sb.writeln('  [${maxh.dateTime}] ${maxh.celcius}');
-      }
-
-      sb.writeln('Min Temperature');
-      for (final minh in area.minTemperature) {
-        sb.writeln('  [${minh.dateTime}] ${minh.celcius}');
-      }
-
-      sb.writeln('Weather');
-      for (final w in area.weather) {
-        sb.writeln('  [${w.dateTime}] ${w.value}');
-      }
-
-      sb.writeln('Wind Direction');
-      for (final w in area.windDirection) {
-        sb.writeln(
-          '  [${w.dateTime}] DEG: ${w.degree}, CARD: ${w.card}, SEXA: ${w.sexa}',
-        );
-      }
-
-      sb.writeln('Wind Speed');
-      for (final w in area.windSpeed) {
-        sb.writeln(
-          '  [${w.dateTime}] Kts: ${w.knots} MPH: ${w.mph} KPH: ${w.kph} MS: ${w.ms}',
-        );
-      }
-
-      sb.writeln('');
-    }
-
-    print(sb.toString());
-  }
+  print(sb0.toString());
 
   // LAST EARTHQUAKE
   final sb1 = StringBuffer();
-  final lastEarthquake = await getLastEarthquake();
+  final lastEarthquake = await bmkg.getLastEarthquake();
   sb1.writeln('Last Earthquake');
   sb1.writeln('DateTime: ${lastEarthquake.dateTime}');
   sb1.writeln(
@@ -90,7 +36,7 @@ Future<void> main() async {
 
   // RECENT EARTHQUAKE
   final sb2 = StringBuffer();
-  final recentEarthquake = await getRecentEarthquake();
+  final recentEarthquake = await bmkg.getRecentEarthquake();
   sb2.writeln('Recent Earthquake');
   for (final e in recentEarthquake) {
     sb2.writeln('DateTime: ${e.dateTime}');
@@ -107,7 +53,7 @@ Future<void> main() async {
 
   // EARTHQUAKE FELT
   final sb3 = StringBuffer();
-  final earthquakeFelt = await getEarthquakeFelt();
+  final earthquakeFelt = await bmkg.getEarthquakeFelt();
   sb3.writeln('Recent Earthquake');
   for (final e in earthquakeFelt) {
     sb3.writeln('DateTime: ${e.dateTime}');

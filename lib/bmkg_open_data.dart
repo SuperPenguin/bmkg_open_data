@@ -1,6 +1,6 @@
-library bmkg_open_data;
+library;
 
-export 'src/earthquake/model.dart';
-export 'src/earthquake/request.dart';
-export 'src/forecast/model.dart';
-export 'src/forecast/request.dart';
+export 'src/bmkg.dart';
+export 'src/earthquake.dart';
+export 'src/http_client.dart';
+export 'src/weather.dart';
