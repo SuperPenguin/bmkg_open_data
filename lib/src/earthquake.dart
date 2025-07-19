@@ -1,6 +1,3 @@
-import 'package:meta/meta.dart';
-
-@immutable
 sealed class Earthquake {
   const Earthquake({
     required this.dateTime,
@@ -19,7 +16,6 @@ sealed class Earthquake {
   final String region;
 }
 
-@immutable
 final class LastEarthquake extends Earthquake {
   const LastEarthquake({
     required super.dateTime,
@@ -54,24 +50,22 @@ final class LastEarthquake extends Earthquake {
   final String potency;
   final String regionFelt;
   final String shakemap;
-  Uri get shakemapUri {
-    return baseShakemapUri.replace(
+  Uri get shakemapUrl {
+    return baseShakemapUrl.replace(
       pathSegments: [
-        ...baseShakemapUri.pathSegments,
+        ...baseShakemapUrl.pathSegments,
         shakemap,
       ],
     );
   }
 
   // https://data.bmkg.go.id/DataMKG/TEWS/[shakemap]
-  static final Uri baseShakemapUri = Uri(
+  static final Uri baseShakemapUrl = Uri(
     scheme: 'https',
-    host: 'data.bmkg.go.id',
-    pathSegments: ['DataMKG', 'TEWS'],
+    host: 'static.bmkg.go.id',
   );
 }
 
-@immutable
 final class RecentEarthquake extends Earthquake {
   const RecentEarthquake({
     required super.dateTime,
@@ -102,7 +96,6 @@ final class RecentEarthquake extends Earthquake {
   final String potency;
 }
 
-@immutable
 final class EarthquakeFelt extends Earthquake {
   const EarthquakeFelt({
     required super.dateTime,
