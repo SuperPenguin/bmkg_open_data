@@ -13,8 +13,8 @@ Future<void> main() async {
   sb0.writeln(
     '${weatherForecast.location.desa}, ${weatherForecast.location.kecamatan}, ${weatherForecast.location.kotkab}, ${weatherForecast.location.provinsi}',
   );
-  sb0.writeln('Time: ${weatherForecast.data.first.dateTime.toLocal()}');
-  sb0.writeln('Temperature: ${weatherForecast.data.first.t} C');
+  sb0.writeln('Time: ${weatherForecast.data.first.first.dateTime.toLocal()}');
+  sb0.writeln('Temperature: ${weatherForecast.data.first.first.t} C');
 
   print(sb0.toString());
 
@@ -31,7 +31,7 @@ Future<void> main() async {
   sb1.writeln('Region: ${lastEarthquake.region}');
   sb1.writeln('Potency: ${lastEarthquake.potency}');
   sb1.writeln('Region Felt: ${lastEarthquake.regionFelt}');
-  sb1.writeln('Shakemap Uri: ${lastEarthquake.shakemapUri}');
+  sb1.writeln('Shakemap Uri: ${lastEarthquake.shakemapUrl}');
   print(sb1.toString());
 
   // RECENT EARTHQUAKE

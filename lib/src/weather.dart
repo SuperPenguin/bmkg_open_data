@@ -109,16 +109,18 @@ class WeatherForecast {
 
   factory WeatherForecast.fromJson(Map<String, dynamic> json) {
     final data = (json['data'] as List<dynamic>).first as Map<String, dynamic>;
-    final forecasts = (data['cuaca'] as List<dynamic>).cast<List<dynamic>>();
+    final weatherList = (data['cuaca'] as List<dynamic>).cast<List<dynamic>>();
 
     return WeatherForecast(
       location: Location.fromJson(json['lokasi'] as Map<String, dynamic>),
-      data: forecasts
-          .map((e) => ForecastData.fromJson(e.first as Map<String, dynamic>))
+      data: weatherList
+          .map((e) => e
+              .map((i) => ForecastData.fromJson(i as Map<String, dynamic>))
+              .toList())
           .toList(),
     );
   }
 
   final Location location;
-  final List<ForecastData> data;
+  final List<List<ForecastData>> data;
 }
