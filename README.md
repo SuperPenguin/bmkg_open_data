@@ -9,5 +9,4 @@ For more info about the API check out their docs at:
 ## LICENSE
 
 This library is licensed in MIT license.
-
-And for API usage, you have to mention/credits BMKG as data source in your application as explained on their web.
+The data received originates from BMKG. Any use of the data must credit BMKG as the source in your application/system.
