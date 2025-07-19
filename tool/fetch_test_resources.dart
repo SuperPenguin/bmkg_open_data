@@ -5,30 +5,32 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 
 Future<void> main() async {
-  // // Forecast
-  // for (final place in ForecastPlace.values) {
-  //   final requestUri = Uri(
-  //     scheme: 'https',
-  //     host: 'data.bmkg.go.id',
-  //     pathSegments: [
-  //       'DataMKG',
-  //       'MEWS',
-  //       'DigitalForecast',
-  //       place.fileName,
-  //     ],
-  //   );
-  //   print('Requesting: $requestUri');
-  //   final response = await http.get(requestUri);
-  //   final content = response.body;
+  await _getWeather();
+  await _getEarthquake();
+}
 
-  //   final file = File('test_resources/forecast/${place.fileName}');
-  //   print('Writing to ${file.path}');
-  //   await file.create(recursive: true);
-  //   await file.writeAsString(content);
-  // }
+Future<void> _getWeather() async {
+  final requestUrl = Uri(
+    scheme: 'https',
+    host: 'api.bmkg.go.id',
+    pathSegments: ['publik', 'prakiraan-cuaca'],
+    queryParameters: {'adm4': '31.71.01.1001'},
+  );
 
-  // Earthquake
-  final earthquakeBaseUri = Uri(
+  final response = await http.get(requestUrl);
+  if (response.statusCode != 200) {
+    throw Exception('$requestUrl HTTP ${response.statusCode}');
+  }
+  final content = response.body;
+
+  final file = File('test_resources/weather/weather.json');
+  await file.create(recursive: true);
+  print('Writing to ${file.path}');
+  await file.writeAsString(content);
+}
+
+Future<void> _getEarthquake() async {
+  final baseUrl = Uri(
     scheme: 'https',
     host: 'data.bmkg.go.id',
     pathSegments: [
@@ -44,15 +46,18 @@ Future<void> main() async {
   ];
 
   for (final endpoint in earthquakeEndpoints) {
-    final requestUri = earthquakeBaseUri.replace(
+    final requestUrl = baseUrl.replace(
       pathSegments: [
-        ...earthquakeBaseUri.pathSegments,
+        ...baseUrl.pathSegments,
         endpoint,
       ],
     );
 
-    print('Requesting: $requestUri');
-    final response = await http.get(requestUri);
+    print('Requesting: $requestUrl');
+    final response = await http.get(requestUrl);
+    if (response.statusCode != 200) {
+      throw Exception('$requestUrl HTTP ${response.statusCode}');
+    }
     final content = response.body;
 
     final file = File('test_resources/earthquake/$endpoint');
